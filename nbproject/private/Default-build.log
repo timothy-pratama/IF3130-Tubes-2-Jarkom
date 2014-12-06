@@ -1,0 +1,2 @@
+g++ -c -IHeader server.cpp
+make: *** No rule to make target `Server.cpp', needed by `Server.o'.  Stop.

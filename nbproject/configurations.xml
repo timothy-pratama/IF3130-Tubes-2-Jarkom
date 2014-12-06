@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="Source">
+        <df name="File">
+          <in>FileReceiver.cpp</in>
+          <in>ServerLog.cpp</in>
+        </df>
+        <df name="Packet">
+          <in>Packet.cpp</in>
+          <in>broadcastPacket.cpp</in>
+          <in>errorPacket.cpp</in>
+          <in>filePacket.cpp</in>
+          <in>finishFilePacket.cpp</in>
+          <in>groupPacket.cpp</in>
+          <in>groupSuccessPacket.cpp</in>
+          <in>incomingGroupPacket.cpp</in>
+          <in>incomingPacket.cpp</in>
+          <in>joinGroupPacket.cpp</in>
+          <in>leaveGroupPacket.cpp</in>
+          <in>loginPacket.cpp</in>
+          <in>logoutPacket.cpp</in>
+          <in>packetParser.cpp</in>
+          <in>packetReceiver.cpp</in>
+          <in>partFilePacket.cpp</in>
+          <in>registerPacket.cpp</in>
+          <in>sendPacket.cpp</in>
+          <in>successPacket.cpp</in>
+        </df>
+        <df name="Socket">
+          <in>ActiveSocket.cpp</in>
+          <in>ListenerSocket.cpp</in>
+          <in>Socket.cpp</in>
+        </df>
+        <df name="Thread">
+          <in>ClientReceiverThread.cpp</in>
+          <in>Condition.cpp</in>
+          <in>Mutex.cpp</in>
+          <in>ReceiverThread.cpp</in>
+          <in>SenderThread.cpp</in>
+          <in>Thread.cpp</in>
+          <in>ThreadFactory.cpp</in>
+        </df>
+        <df name="User">
+          <in>Group.cpp</in>
+          <in>GroupService.cpp</in>
+          <in>User.cpp</in>
+          <in>UserService.cpp</in>
+          <in>clientUser.cpp</in>
+        </df>
+        <in>SharedResource.cpp</in>
+      </df>
+      <in>Client.cpp</in>
+      <in>Server.cpp</in>
+      <in>client.cpp</in>
+      <in>clients.cpp</in>
+      <in>server.cpp</in>
+      <in>servers.cpp</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>server</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>Header</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="Client.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Server.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/File/FileReceiver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Source/File/ServerLog.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/Packet.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/broadcastPacket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/errorPacket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/filePacket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/finishFilePacket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Source/Packet/groupPacket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/groupSuccessPacket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Source/Packet/incomingGroupPacket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Source/Packet/incomingPacket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/joinGroupPacket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/leaveGroupPacket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/loginPacket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/logoutPacket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/packetParser.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/packetReceiver.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/partFilePacket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/registerPacket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/sendPacket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Packet/successPacket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/SharedResource.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Socket/ActiveSocket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Socket/ListenerSocket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Socket/Socket.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Thread/ClientReceiverThread.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="Source/Thread/Condition.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Thread/Mutex.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Thread/ReceiverThread.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Thread/SenderThread.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Thread/Thread.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/Thread/ThreadFactory.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/User/Group.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/User/GroupService.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/User/User.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/User/UserService.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Source/User/clientUser.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="client.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="clients.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <folder path="0/Source">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="server.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="servers.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

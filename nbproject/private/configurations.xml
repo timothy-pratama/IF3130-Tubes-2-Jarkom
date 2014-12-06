@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="Debug">
+        <df name="Source">
+          <df name="File">
+          </df>
+          <df name="Packet">
+          </df>
+          <df name="Socket">
+          </df>
+          <df name="Thread">
+          </df>
+          <df name="User">
+          </df>
+        </df>
+      </df>
+      <df name="Group">
+      </df>
+      <df name="Header">
+        <df name="File">
+          <in>FileReceiver.h</in>
+          <in>FileService.h</in>
+          <in>ServerLog.h</in>
+        </df>
+        <df name="Packet">
+          <in>Packet.h</in>
+          <in>broadcastPacket.h</in>
+          <in>errorPacket.h</in>
+          <in>filePacket.h</in>
+          <in>finishFilePacket.h</in>
+          <in>groupPacket.h</in>
+          <in>groupSuccessPacket.h</in>
+          <in>incomingGroupPacket.h</in>
+          <in>incomingPacket.h</in>
+          <in>joinGroupPacket.h</in>
+          <in>leaveGroupPacket.h</in>
+          <in>loginPacket.h</in>
+          <in>logoutPacket.h</in>
+          <in>packetParser.h</in>
+          <in>packetReceiver.h</in>
+          <in>partFilePacket.h</in>
+          <in>registerPacket.h</in>
+          <in>sendPacket.h</in>
+          <in>successPacket.h</in>
+        </df>
+        <df name="Socket">
+          <in>ActiveSocket.h</in>
+          <in>ListenerSocket.h</in>
+          <in>Socket.h</in>
+        </df>
+        <df name="Thread">
+          <in>ClientReceiverThread.h</in>
+          <in>Condition.h</in>
+          <in>Mutex.h</in>
+          <in>ReceiverThread.h</in>
+          <in>SenderThread.h</in>
+          <in>Thread.h</in>
+          <in>ThreadFactory.h</in>
+        </df>
+        <df name="User">
+          <in>Group.h</in>
+          <in>GroupService.h</in>
+          <in>User.h</in>
+          <in>UserService.h</in>
+          <in>clientUser.h</in>
+        </df>
+        <in>SharedResource.h</in>
+      </df>
+      <df name="Log">
+      </df>
+      <df name="Release">
+      </df>
+      <df name="Source">
+        <df name="File">
+          <in>FileReceiver.cpp</in>
+          <in>FileService.cpp</in>
+          <in>ServerLog.cpp</in>
+        </df>
+        <df name="Packet">
+          <in>Packet.cpp</in>
+          <in>broadcastPacket.cpp</in>
+          <in>errorPacket.cpp</in>
+          <in>filePacket.cpp</in>
+          <in>finishFilePacket.cpp</in>
+          <in>groupPacket.cpp</in>
+          <in>groupSuccessPacket.cpp</in>
+          <in>incomingGroupPacket.cpp</in>
+          <in>incomingPacket.cpp</in>
+          <in>joinGroupPacket.cpp</in>
+          <in>leaveGroupPacket.cpp</in>
+          <in>loginPacket.cpp</in>
+          <in>logoutPacket.cpp</in>
+          <in>packetParser.cpp</in>
+          <in>packetReceiver.cpp</in>
+          <in>partFilePacket.cpp</in>
+          <in>registerPacket.cpp</in>
+          <in>sendPacket.cpp</in>
+          <in>successPacket.cpp</in>
+        </df>
+        <df name="Socket">
+          <in>ActiveSocket.cpp</in>
+          <in>ListenerSocket.cpp</in>
+          <in>Socket.cpp</in>
+        </df>
+        <df name="Thread">
+          <in>ClientReceiverThread.cpp</in>
+          <in>Condition.cpp</in>
+          <in>Mutex.cpp</in>
+          <in>ReceiverThread.cpp</in>
+          <in>SenderThread.cpp</in>
+          <in>Thread.cpp</in>
+          <in>ThreadFactory.cpp</in>
+        </df>
+        <df name="User">
+          <in>Group.cpp</in>
+          <in>GroupService.cpp</in>
+          <in>User.cpp</in>
+          <in>UserService.cpp</in>
+          <in>clientUser.cpp</in>
+        </df>
+        <in>SharedResource.cpp</in>
+      </df>
+      <df name="User">
+      </df>
+      <in>Client.cpp</in>
+      <in>Client.h</in>
+      <in>Server.cpp</in>
+      <in>Server.h</in>
+      <in>client.cpp</in>
+      <in>clients.cpp</in>
+      <in>server.cpp</in>
+      <in>servers.cpp</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

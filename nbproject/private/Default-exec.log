@@ -1,0 +1,7 @@
+called: g++
+	/home/timothy/Desktop/Tugas Jarkom/Jarkom
+	g++
+	-c
+	-IHeader
+	server.cpp
+
